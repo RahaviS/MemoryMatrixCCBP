@@ -1,0 +1,44 @@
+.results-container {
+  background-color: rgba(233, 230, 236, 0.324);
+  border: 1px solid #ebe8e8a2;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.result-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-text {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 28px;
+  font-weight: 700;
+}
+.best-score-text {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 22px;
+}
+.final-score {
+  font-family: 'Roboto';
+  color: rgb(49, 91, 243);
+  font-weight: 600;
+  font-size: 28px;
+}
+.result-img {
+  width: 380px;
+  height: 500px;
+}
+.play-again-btn {
+  background-color: rgb(228, 228, 27);
+  border: 0;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+}
